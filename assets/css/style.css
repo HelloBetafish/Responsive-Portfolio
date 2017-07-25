@@ -72,7 +72,7 @@ footer{
 	padding:20px;
 	border-top: 8px solid #4aaaa5;
 	z-index:3;
-	}
+}
 
 
 section{
@@ -92,7 +92,6 @@ aside{
 	width: 228px;
 	border: 1px solid #dddddd;
 	text-align: center;
-
 }
 
 aside img{
@@ -255,6 +254,7 @@ input[type=submit]:hover {
 		width:90%;
 		padding:20px;
 	}
+
 	aside{
 		width:90%;
 		margin:auto;
@@ -302,6 +302,7 @@ input[type=submit]:hover {
 	nav{
 		margin:auto;
 	}
+
 	nav ul{
 		clear:left;
 		margin:0px;
@@ -319,6 +320,25 @@ input[type=submit]:hover {
 		border-right:none;
 	}
 
+	.main{
+		margin:auto;
+		width:90%;
+		overflow: auto;
+		margin-bottom:50px;
+		margin-top:25px;
+	}
+
+	.main p {
+		width:90%;
+	}
+
+	.bio_image{
+		float:none;
+		margin-top:10px;
+		width:500px;
+		height:500px;
+	}
+	
 	section{
 		width:100%;
 		padding:20px;
@@ -343,32 +363,6 @@ input[type=submit]:hover {
 	margin: 0 3px 0 3px;
 	}
 
-	.main{
-		margin:auto;
-		width:90%;
-		overflow: auto;
-		margin-bottom:50px;
-		margin-top:25px;
-	}
-
-	.main p {
-		width:90%;
-	}
-
-
-	.bio_image{
-		float:none;
-		margin-top:10px;
-		width:500px;
-		height:500px;
-	}
-
-	footer{
-	padding:18px;
-	border-top: 4px solid #4aaaa5;
-	font-size:12px;
-	}
-
 	.PortfolioLinkImage{
 	clear:both;
 	width:80%;
@@ -385,5 +379,11 @@ input[type=submit]:hover {
 	input[type=text], input[type=email], 
 	textarea[name=message],select{
 	width:90%;
+	}
+
+	footer{
+	padding:18px;
+	border-top: 4px solid #4aaaa5;
+	font-size:12px;
 	}
 }
